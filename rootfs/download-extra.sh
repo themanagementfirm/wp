@@ -64,8 +64,6 @@ curl -o /tmp/advanced-custom-fields-pro.zip https://themeco-packages.s3.amazonaw
 # Additional Third Party Plugins
 # curl -o /tmp/woocommerce-gift-cards.zip https://woothemes-products.s3.amazonaws.com/plugin-packages/woocommerce-gift-cards/woocommerce-gift-cards.zip?AWSAccessKeyId=AKIAJE6A7GBT4ZRLENMA&Expires=1600752383&Signature=ocwBQqINBqf78U%2FjtcPJytK9yM8%3D
 
-curl -o /tmp/gravity-forms.zip https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.4.21.1.zip?AWSAccessKeyId=AKIAJC3LQNDWHBOFBQIA&Expires=1603261670&Signature=ZTdch%2B%2BuoJQ9tFpBLJw%2B135veA8%3D
-
 # Theme install
 unzip /tmp/pro.zip -d /opt/bitnami/wordpress/wp-content/themes
 unzip /tmp/pro-child.zip -d /opt/bitnami/wordpress/wp-content/themes
@@ -121,4 +119,3 @@ upzip /tmp/woocommerce-services.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/woocommerce-square.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/wp-force-ssl.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/intercom.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/gravity-forms.zip -d /opt/bitnami/wordpress/wp-content/plugins
