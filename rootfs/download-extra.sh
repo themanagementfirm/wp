@@ -31,8 +31,8 @@ curl -o /tmp/google-site-kit.zip https://downloads.wordpress.org/plugin/google-s
 curl -o /tmp/w3-total-cache.zip https://downloads.wordpress.org/plugin/w3-total-cache.0.14.4.zip
 curl -o /tmp/woocommerce-services.zip https://downloads.wordpress.org/plugin/woocommerce-service.zip
 curl -o /tmp/woocommerce-square.zip https://downloads.wordpress.org/plugin/woocommerce-square.zip
-curl -o /tmp/wp-force-ssl.zip https://downloads.wordpress.org/plugin/wp-force-ssl.zip
 curl -o /tmp/intercom.zip https://downloads.wordpress.org/plugin/intercom.zip
+curl -o /tmp/wp-force-ssl.zip https://downloads.wordpress.org/plugin/wp-force-ssl.zip
 
 # ThemeCo Plugins (Pro Theme Specific)
 curl -o /tmp/tco-custom-404.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/tco-custom-404.zip
