@@ -155,7 +155,6 @@ unzip /tmp/go_pricing.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/auxin-pro-tools.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/Ultimate_VC_Addons.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/LayerSlider.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/js_composer.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/auxin-the-news.zip -d /opt/bitnami/wordpress/wp-content/plugins
 # unzip /tmp/waspthemes-yellow-pencil.zip /opt/bitnami/wordpress/wp-content/plugins
 # unzip /tmp/revslider.zip /opt/bitnami/wordpress/wp-content/plugins
