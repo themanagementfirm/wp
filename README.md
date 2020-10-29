@@ -22,4 +22,5 @@ Contributing to any resource on The Management Firm can be done as so:
 
 ## Issues
 
+
 Post issues at: https://github.com/themanagementfirm/wp/issues
