@@ -16,7 +16,7 @@ fi
 nami_initialize apache php mysql-client wordpress
 
 # Theme Activation
-su daemon -s /bin/bash -c '/opt/bitnami/wp-cli/bin/wp theme activate medizco-child'
+su daemon -s /bin/bash -c '/opt/bitnami/wp-cli/bin/wp theme activate pro-child'
 
 # Plugin Activation
 su daemon -s /bin/bash -c '/opt/bitnami/wp-cli/bin/wp plugin activate bbpress'
@@ -69,7 +69,7 @@ su daemon -s /bin/bash -c '/opt/bitnami/wp-cli/bin/wp plugin activate google-sit
 su daemon -s /bin/bash -c '/opt/bitnami/wp-cli/bin/wp plugin activate woocommerce-square'
 # su daemon -s /bin/bash -c '/opt/bitnami/wp-cli/bin/wp plugin activate wp-force-ssl'
 su daemon -s /bin/bash -c '/opt/bitnami/wp-cli/bin/wp plugin activate intercom'
-su daemon -s /bin/bash -c '/opt/bitnami/wp-cli/bin/wp theme activate medizco-essential'
+su daemon -s /bin/bash -c '/opt/bitnami/wp-cli/bin/wp theme activate elementor'
 info "Starting wordpress... "
 
 exec tini -- "$@"

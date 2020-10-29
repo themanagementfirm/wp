@@ -10,6 +10,7 @@ curl -o /tmp/pro-child.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f
 
 # Plugin download
 
+
 # Wordpress Plugins
 curl -o /tmp/bbpress.zip https://downloads.wordpress.org/plugin/bbpress.zip
 curl -o /tmp/contact-form-7.zip https://downloads.wordpress.org/plugin/contact-form-7.zip
@@ -66,7 +67,7 @@ curl -o /tmp/advanced-custom-fields-pro.zip https://themeco-packages.s3.amazonaw
 
 # TMF Hosted Plugins
 #curl -o /tmp/medizco-essential.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-essential.zip
-
+curl -o /tmp/elementor.zip https://tmf-wordpress-resources.s3.amazonaws.com/elementor-pro-3.0.4.zip
 
 # Additional Third Party Plugins
 # curl -o /tmp/woocommerce-gift-cards.zip https://woothemes-products.s3.amazonaws.com/plugin-packages/woocommerce-gift-cards/woocommerce-gift-cards.zip?AWSAccessKeyId=AKIAJE6A7GBT4ZRLENMA&Expires=1600752383&Signature=ocwBQqINBqf78U%2FjtcPJytK9yM8%3D
@@ -129,3 +130,4 @@ unzip /tmp/woocommerce-square.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/wp-force-ssl.zip -d /opt/bitnami/wordpress/wp-content/plugins
 #nzip /tmp/medizco-essential.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/intercom.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/elementor.zip -d /opt/bitnami/wordpress/wp-content/plugins
