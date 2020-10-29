@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Theme download
-# curl -o /tmp/pro.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/pro_package/pro.zip
+curl -o /tmp/pro.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/pro_package/pro.zip
 # curl -o /tmp/pro.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/pre-release/pro.zip
-# curl -o /tmp/pro-child.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/child-themes/pro-child.zip
+curl -o /tmp/pro-child.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/child-themes/pro-child.zip
 
-curl -o /tmp/medizco.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco.zip
-curl -o /tmp/medizco-child.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-child.zip
+# curl -o /tmp/medizco.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco.zip
+# curl -o /tmp/medizco-child.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-child.zip
 
 # Plugin download
 
@@ -65,17 +65,17 @@ curl -o /tmp/advanced-custom-fields-pro.zip https://themeco-packages.s3.amazonaw
 
 
 # TMF Hosted Plugins
-curl -o /tmp/medizco-essential.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-essential.zip
+#curl -o /tmp/medizco-essential.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-essential.zip
 
 
 # Additional Third Party Plugins
 # curl -o /tmp/woocommerce-gift-cards.zip https://woothemes-products.s3.amazonaws.com/plugin-packages/woocommerce-gift-cards/woocommerce-gift-cards.zip?AWSAccessKeyId=AKIAJE6A7GBT4ZRLENMA&Expires=1600752383&Signature=ocwBQqINBqf78U%2FjtcPJytK9yM8%3D
 
 # Theme install
-# unzip /tmp/pro.zip -d /opt/bitnami/wordpress/wp-content/themes
-# unzip /tmp/pro-child.zip -d /opt/bitnami/wordpress/wp-content/themes
-unzip /tmp/medizco.zip  -d /opt/bitnami/wordpress/wp-content/themes
-unzip /tmp/medizco-child.zip  -d /opt/bitnami/wordpress/wp-content/themes
+unzip /tmp/pro.zip -d /opt/bitnami/wordpress/wp-content/themes
+unzip /tmp/pro-child.zip -d /opt/bitnami/wordpress/wp-content/themes
+#unzip /tmp/medizco.zip  -d /opt/bitnami/wordpress/wp-content/themes
+#unzip /tmp/medizco-child.zip  -d /opt/bitnami/wordpress/wp-content/themes
 
 # Plugin install
 unzip /tmp/eps-301-redirects.zip -d /opt/bitnami/wordpress/wp-content/plugins
@@ -127,4 +127,5 @@ upzip /tmp//tmp/woocommerce-gift-cards.zip -d /opt/bitnami/wordpress/wp-content/
 upzip /tmp/woocommerce-services.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/woocommerce-square.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/wp-force-ssl.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/medizco-essential.zip -d /opt/bitnami/wordpress/wp-content/pluginsunzip /tmp/intercom.zip -d /opt/bitnami/wordpress/wp-content/plugins
+#nzip /tmp/medizco-essential.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/intercom.zip -d /opt/bitnami/wordpress/wp-content/plugins
