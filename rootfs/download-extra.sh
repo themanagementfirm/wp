@@ -1,12 +1,15 @@
 #!/bin/bash
 
 # Theme download
-curl -o /tmp/pro.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/pro_package/pro.zip
+# curl -o /tmp/pro.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/pro_package/pro.zip
 # curl -o /tmp/pro.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/pre-release/pro.zip
-curl -o /tmp/pro-child.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/child-themes/pro-child.zip
+# curl -o /tmp/pro-child.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/child-themes/pro-child.zip
 
 # curl -o /tmp/medizco.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco.zip
 # curl -o /tmp/medizco-child.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-child.zip
+
+curl -o /tmp/phlox.zip https://tmf-wordpress-resources.s3.amazonaws.com/phlox-pro.zip
+curl -o /tmp/phlox-child.zip https://tmf-wordpress-resources.s3.amazonaws.com/phlox-pro-child.zip
 
 # Plugin download
 
@@ -52,7 +55,7 @@ curl -o /tmp/envira-gallery.zip https://themeco-packages.s3.amazonaws.com/d940c8
 curl -o /tmp/essential-grid.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/essential-grid.zip
 # curl -o /tmp/LayerSlider.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/LayerSlider.zip
 curl -o /tmp/modern-events-calendar.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/modern-events-calendar.zip
-curl -o /tmp/revslider.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/revslider.zip
+# curl -o /tmp/revslider.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/revslider.zip
 curl -o /tmp/snippet.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/snippet.zip
 curl -o /tmp/soliloquy.zip  https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/soliloquy.zip
 # curl -o /tmp/superfly-menu.zip h https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/superfly-menu.zip
@@ -68,15 +71,28 @@ curl -o /tmp/advanced-custom-fields-pro.zip https://themeco-packages.s3.amazonaw
 # TMF Hosted Plugins
 #curl -o /tmp/medizco-essential.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-essential.zip
 curl -o /tmp/elementor.zip https://tmf-wordpress-resources.s3.amazonaws.com/elementor-pro-3.0.4.zip
+curl -o /tmp/waspthemes-yellow-pencil.zip https://tmf-wordpress-resources.s3.amazonaws.com/waspthemes-yellow-pencil.zip
+curl -o /tmp/revslider.zip https://tmf-wordpress-resources.s3.amazonaws.com/revslider.zip
+curl -o /tmp/js_composer.zip https://tmf-wordpress-resources.s3.amazonaws.com/jx_composer.zip
+curl -o /tmp/masterslider.zip https://tmf-wordpress-resources.s3.amazonaws.com/masterslider.zip
+curl -o /tmp/auxin-the-news.zip https://tmf-wordpress-resources.s3.amazonaws.com/auxin-the-news.zip
+curl -o /tmp/bdthemes-element-pack.zip https://tmf-wordpress-resources.s3.amazonaws.com/bdthemes-element-pack.zip
+curl -o /tmp/dzs-zoomsounds.zip https://tmf-wordpress-resources.s3.amazonaws.com/dnz-zoomsounds.zip
+curl -o /tmp/go_pricing.zip https://tmf-wordpress-resources.s3.amazonaws.com/go_pricing.zip
+curl -o /tmp/auxin-pro-tools.zip https://tmf-wordpress-resources.s3.amazonaws.com/auxin-pro-tools.zip
+curl -o /tmp/Ultimate_VC_Addons.zip https://tmf-wordpress-resources.s3.amazonaws.com/Ultimate_VC_Addons.zip
+curl -o /tmp/LayerSlider.zip https://tmf-wordpress-resources.s3.amazonaws.com/LayerSlider.zip
 
 # Additional Third Party Plugins
 # curl -o /tmp/woocommerce-gift-cards.zip https://woothemes-products.s3.amazonaws.com/plugin-packages/woocommerce-gift-cards/woocommerce-gift-cards.zip?AWSAccessKeyId=AKIAJE6A7GBT4ZRLENMA&Expires=1600752383&Signature=ocwBQqINBqf78U%2FjtcPJytK9yM8%3D
 
 # Theme install
-unzip /tmp/pro.zip -d /opt/bitnami/wordpress/wp-content/themes
-unzip /tmp/pro-child.zip -d /opt/bitnami/wordpress/wp-content/themes
-#unzip /tmp/medizco.zip  -d /opt/bitnami/wordpress/wp-content/themes
-#unzip /tmp/medizco-child.zip  -d /opt/bitnami/wordpress/wp-content/themes
+# unzip /tmp/pro.zip -d /opt/bitnami/wordpress/wp-content/themes
+# unzip /tmp/pro-child.zip -d /opt/bitnami/wordpress/wp-content/themes
+# unzip /tmp/medizco.zip  -d /opt/bitnami/wordpress/wp-content/themes
+# unzip /tmp/medizco-child.zip  -d /opt/bitnami/wordpress/wp-content/themes
+unzip /tmp/phlox.zip -d /opt/bitnami/wordpress/wp-content/themes
+unzip /tmp/phlox-child.zip -d /opt/bitnami/wordpress/wp-content/themes
 
 # Plugin install
 unzip /tmp/eps-301-redirects.zip -d /opt/bitnami/wordpress/wp-content/plugins
@@ -131,3 +147,16 @@ unzip /tmp/wp-force-ssl.zip -d /opt/bitnami/wordpress/wp-content/plugins
 #nzip /tmp/medizco-essential.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/intercom.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/elementor.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/js_composer.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/masterslider.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/auxin-shop.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/bdthemes-element-pack.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/go_pricing.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/auxin-pro-tools.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/Ultimate_VC_Addons.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/LayerSlider.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/js_composer.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/auxin-the-news.zip -d /opt/bitnami/wordpress/wp-content/plugins
+# unzip /tmp/waspthemes-yellow-pencil.zip /opt/bitnami/wordpress/wp-content/plugins
+# unzip /tmp/revslider.zip /opt/bitnami/wordpress/wp-content/plugins
+# unzip /tmp/dzs-zoomsounds.zip /opt/bitnami/wordpress/wp-content/plugins
