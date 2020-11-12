@@ -1,10 +1,10 @@
 {
     "apache": {
         "arch": "amd64",
-        "digest": "8d591562d804902c986f59f18bbea5e47289f4cbfb364c13862d4b9df557e0f4",
+        "digest": "07991412bb24fc8493228f4bd67b28a77e011242971dcdd687a5d2113ac89bc9",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "2.4.46-2"
+        "version": "2.4.46-3"
     },
     "gosu": {
         "arch": "amd64",
@@ -15,10 +15,10 @@
     },
     "libphp": {
         "arch": "amd64",
-        "digest": "2a552ec9133bfeea17ee4fa40976499165cc3c6c89e00d483063df083abe4b13",
+        "digest": "ac657e4c69d388585313ec8e97476030c3d3ab910b69c9fe2f7426b4e0f3d828",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "7.4.11-1"
+        "version": "7.4.12-0"
     },
     "mysql-client": {
         "arch": "amd64",
@@ -29,10 +29,10 @@
     },
     "php": {
         "arch": "amd64",
-        "digest": "0825a3aa24a25536d3978350d6fe1de0d43c2953a58b97f28855e90dcc954d3c",
+        "digest": "9297949a260142346cc772f244593f7dc749da9b5f343cdbe779292abeecc732",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "7.4.11-3"
+        "version": "7.4.12-0"
     },
     "tini": {
         "arch": "amd64",
@@ -43,16 +43,16 @@
     },
     "wordpress": {
         "arch": "amd64",
-        "digest": "4bc01a2f8799bfa93b7be64fad69be83ddd488dcff94193fb789bd06e438a7df",
+        "digest": "27d4eb5d04fdc8473db94ef5c0f1f51eb051d3a5ce0ac188d66a6dcfbf7489fb",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "5.5.1-10"
+        "version": "5.5.3-0"
     },
     "wp-cli": {
         "arch": "amd64",
-        "digest": "8095bdd2f96a137cb3f54836ad9deb90510b0927472e532f41e1708345432230",
+        "digest": "33c3b53e87e9e433291ac3511e68263c80b43aa4de3dead9502934f506b7f2e6",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "2.4.0-0"
+        "version": "2.4.0-2"
     }
 }

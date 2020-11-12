@@ -70,18 +70,29 @@ curl -o /tmp/advanced-custom-fields-pro.zip https://themeco-packages.s3.amazonaw
 
 # TMF Hosted Plugins
 #curl -o /tmp/medizco-essential.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-essential.zip
-curl -o /tmp/elementor.zip https://tmf-wordpress-resources.s3.amazonaws.com/elementor-pro-3.0.4.zip
-curl -o /tmp/waspthemes-yellow-pencil.zip https://tmf-wordpress-resources.s3.amazonaws.com/waspthemes-yellow-pencil.zip
-curl -o /tmp/revslider.zip https://tmf-wordpress-resources.s3.amazonaws.com/revslider.zip
-curl -o /tmp/js_composer.zip https://tmf-wordpress-resources.s3.amazonaws.com/jx_composer.zip
-curl -o /tmp/masterslider.zip https://tmf-wordpress-resources.s3.amazonaws.com/masterslider.zip
+curl -o /tmp/auxin-pro-tools.zip https://tmf-wordpress-resources.s3.amazonaws.com/auxin-pro-tools.zip
+curl -o /tmp/auxin-shop.zip https://tmf-wordpress-resources.s3.amazonaws.com/auxin-shop.zip
 curl -o /tmp/auxin-the-news.zip https://tmf-wordpress-resources.s3.amazonaws.com/auxin-the-news.zip
 curl -o /tmp/bdthemes-element-pack.zip https://tmf-wordpress-resources.s3.amazonaws.com/bdthemes-element-pack.zip
+curl -o /tmp/dokan-pro.zip https://tmf-wordpress-resources.s3.amazonaws.com/dokan-pro.3.0.8.zip
 curl -o /tmp/dzs-zoomsounds.zip https://tmf-wordpress-resources.s3.amazonaws.com/dnz-zoomsounds.zip
+curl -o /tmp/elementor.zip https://tmf-wordpress-resources.s3.amazonaws.com/elementor-3.0.7.zip
+curl -o /tmp/elementor-pro.zip https://tmf-wordpress-resources.s3.amazonaws.com/elementor-pro-3.0.4.zip
 curl -o /tmp/go_pricing.zip https://tmf-wordpress-resources.s3.amazonaws.com/go_pricing.zip
-curl -o /tmp/auxin-pro-tools.zip https://tmf-wordpress-resources.s3.amazonaws.com/auxin-pro-tools.zip
-curl -o /tmp/Ultimate_VC_Addons.zip https://tmf-wordpress-resources.s3.amazonaws.com/Ultimate_VC_Addons.zip
+curl -o /tmp/yoast.zip https://tmf-wordpress-resources.s3.amazonaws.com/j207-ncx-wordpress-seo-premium.15.0.zip
+curl -o /tmp/js_composer.zip https://tmf-wordpress-resources.s3.amazonaws.com/js_composer.zip
 curl -o /tmp/LayerSlider.zip https://tmf-wordpress-resources.s3.amazonaws.com/LayerSlider.zip
+curl -o /tmp/masterslider.zip https://tmf-wordpress-resources.s3.amazonaws.com/masterslider.zip
+curl -o /tmp/polylang-pro.zip https://tmf-wordpress-resources.s3.amazonaws.com/polylang-pro-2.8.2.zip
+curl -o /tmp/qube.zip https://tmf-wordpress-resources.s3.amazonaws.com/qube.1.1.1.zip
+curl -o /tmp/revslider.zip https://tmf-wordpress-resources.s3.amazonaws.com/revslider.zip
+curl -o /tmp/shift-cv.zip https://tmf-wordpress-resources.s3.amazonaws.com/shift-cv.3.0.1.zip
+curl -o /tmp/Ultimate_VC_Addons.zip https://tmf-wordpress-resources.s3.amazonaws.com/Ultimate_VC_Addons.zip
+curl -o /tmp/waspthemes-yellow-pencil.zip https://tmf-wordpress-resources.s3.amazonaws.com/waspthemes-yellow-pencil.zip
+curl -o /tmp/woocommerce-product-bundles.zip https://tmf-wordpress-resources.s3.amazonaws.com/woocommerce-product-bundles.6.4.0.zip
+curl -o /tmp/wp-mail-smtp-pro.zip https://tmf-wordpress-resources.s3.amazonaws.com/wp-mail-smtp-pro.2.4.0.zip
+curl -o /tmp/wp-rocket.zip https://tmf-wordpress-resources.s3.amazonaws.com/wp-rocket.3.7.2.zip
+curl -o /tmp/wpseo-local.zip https://tmf-wordpress-resources.s3.amazonaws.com/wpseo-local.13.6.zip
 
 # Additional Third Party Plugins
 # curl -o /tmp/woocommerce-gift-cards.zip https://woothemes-products.s3.amazonaws.com/plugin-packages/woocommerce-gift-cards/woocommerce-gift-cards.zip?AWSAccessKeyId=AKIAJE6A7GBT4ZRLENMA&Expires=1600752383&Signature=ocwBQqINBqf78U%2FjtcPJytK9yM8%3D
@@ -140,22 +151,34 @@ unzip /tmp/nomiddleman-crypto-payments-for-woocommerce.zip -d /opt/bitnami/wordp
 unzip /tmp/simple-tags.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/google-site-kit.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/w3-total-cache.zip -d /opt/bitnami/wordpress/wp-content/plugins
-upzip /tmp//tmp/woocommerce-gift-cards.zip -d /opt/bitnami/wordpress/wp-content/plugins
+# upzip /tmp//tmp/woocommerce-gift-cards.zip -d /opt/bitnami/wordpress/wp-content/plugins
 upzip /tmp/woocommerce-services.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/woocommerce-square.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/wp-force-ssl.zip -d /opt/bitnami/wordpress/wp-content/plugins
 #nzip /tmp/medizco-essential.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/intercom.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/elementor.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/js_composer.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/masterslider.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/auxin-shop.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/bdthemes-element-pack.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/go_pricing.zip -d /opt/bitnami/wordpress/wp-content/plugins
+
+
 unzip /tmp/auxin-pro-tools.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/Ultimate_VC_Addons.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/LayerSlider.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/auxin-shop.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/auxin-the-news.zip -d /opt/bitnami/wordpress/wp-content/plugins
-# unzip /tmp/waspthemes-yellow-pencil.zip /opt/bitnami/wordpress/wp-content/plugins
-# unzip /tmp/revslider.zip /opt/bitnami/wordpress/wp-content/plugins
-# unzip /tmp/dzs-zoomsounds.zip /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/bdthemes-element-pack.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/dokan-pro.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/dzs-zoomsounds.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/elementor.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/elementor-pro.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/go_pricing.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/yoast.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/js_composer.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/LayerSlider.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/masterslider.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/polylang-pro.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/qube.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/revslider.zip /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/shift-cv.zip /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/Ultimate_VC_Addons.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/waspthemes-yellow-pencil.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-product-bundles.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/wp-mail-smtp-pro.zip -d /opt/bitnami/wordpress/wp-content/plugin
+unzip /tmp/wp-rocket.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/wpseo-local.zip -d /opt/bitnami/wordpress/wp-content/plugins
