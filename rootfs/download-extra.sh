@@ -11,7 +11,7 @@ curl -o /tmp/phlox.zip https://tmf-wordpress-resources.s3.amazonaws.com/phlox-pr
 curl -o /tmp/phlox-child.zip https://tmf-wordpress-resources.s3.amazonaws.com/phlox-pro-child.zip
 
 ## Download Wordpress Hosted Plugins
-curl -o /tmp/askimet.zip https://downloads.wordpress.org/plugin/akismet.zip
+curl -o /tmp/akismet.zip https://downloads.wordpress.org/plugin/akismet.zip
 curl -o /tmp/all-in-ones-seo-pack.zip https://downloads.wordpress.org/plugin/all-in-one-seo-pack.zip
 curl -o /tmp/all-in-one-wp-migration.zip https://downloads.wordpress.org/plugin/all-in-one-wp-migration.zip
 curl -o /tmp/amp.zip https://downloads.wordpress.org/plugin/amp.zip
@@ -27,13 +27,13 @@ curl -o /tmp/leadin.zip https://downloads.wordpress.org/plugin/leadin.zip
 curl -o /tmp/loginpress.zip https://downloads.wordpress.org/plugin/loginpress.zip
 curl -o /tmp/mailpoet.zip https://downloads.wordpress.org/plugin/mailpoet.zip
 curl -o /tmp/nomiddleman-crypto-payments-for-woocommerce.zip https://downloads.wordpress.org/plugin/nomiddleman-crypto-payments-for-woocommerce.zip
+curl -o /tmp/polylang.zip https://downloads.wordpress.org/plugin/polylang.zip
 curl -o /tmp/simple-tags.zip https://downloads.wordpress.org/plugin/simple-tags.zip
 curl -o /tmp/w3-total-cache.zip https://downloads.wordpress.org/plugin/w3-total-cache.zip
 curl -o /tmp/woocommerce.zip  https://downloads.wordpress.org/plugin/woocommerce.zip
+curl -o /tmp/woocommerce-services.zip https://downloads.wordpress.org/plugin/woocommerce-services.zip
 curl -o /tmp/woocommerce-square.zip https://downloads.wordpress.org/plugin/woocommerce-square.zip
-curl -o /tmp/woocommerce-services.zip https://downloads.wordpress.org/plugin/woocommerce-service.zip
 curl -o /tmp/wp-force-ssl.zip https://downloads.wordpress.org/plugin/wp-force-ssl.zip
-curl -o /tmp/polylang.zip https://downloads.wordpress.org/plugin/polylang.zip
 curl -o /tmp/wp-mail-smtp.zip https://downloads.wordpress.org/plugin/wp-mail-smtp.zip
 
 ## Download The Management Firm Hosted Plugins
@@ -217,7 +217,7 @@ unzip /tmp/tco-content-dock.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/wp-estimation-form.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/advanced-custom-fields-pro.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/all-in-ones-seo-pack.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/askimet.zip  -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/akismet.zip  -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/all-in-one-wp-migration.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/amp.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/contact-form-7-signature-addon.zip -d /opt/bitnami/wordpress/wp-content/plugins
