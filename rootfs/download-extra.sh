@@ -2,11 +2,11 @@
 
 ## Download Theme Files
 
-# curl -o /tmp/pro.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/pro_package/pro.zip
-# curl -o /tmp/pro.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/pre-release/pro.zip
-# curl -o /tmp/pro-child.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/child-themes/pro-child.zip
-# curl -o /tmp/medizco.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco.zip
-# curl -o /tmp/medizco-child.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-child.zip
+curl -o /tmp/pro.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/pro_package/pro.zip
+# curl -o /tmp/pro-beta.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/pre-release/pro.zip
+curl -o /tmp/pro-child.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/child-themes/pro-child.zip
+#curl -o /tmp/medizco.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco.zip
+#curl -o /tmp/medizco-child.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-child.zip
 curl -o /tmp/phlox.zip https://tmf-wordpress-resources.s3.amazonaws.com/phlox-pro.zip
 curl -o /tmp/phlox-child.zip https://tmf-wordpress-resources.s3.amazonaws.com/phlox-pro-child.zip
 
@@ -15,36 +15,42 @@ curl -o /tmp/akismet.zip https://downloads.wordpress.org/plugin/akismet.zip
 curl -o /tmp/all-in-ones-seo-pack.zip https://downloads.wordpress.org/plugin/all-in-one-seo-pack.zip
 curl -o /tmp/all-in-one-wp-migration.zip https://downloads.wordpress.org/plugin/all-in-one-wp-migration.zip
 curl -o /tmp/amp.zip https://downloads.wordpress.org/plugin/amp.zip
+curl -o /tmp/auxin-elements.zip https://downloads.wordpress.org/plugin/auxin-elements.zip
 curl -o /tmp/bbpress.zip https://downloads.wordpress.org/plugin/bbpress.zip
 curl -o /tmp/buddypress.zip https://downloads.wordpress.org/plugin/buddypress.zip
 curl -o /tmp/contact-form-7.zip https://downloads.wordpress.org/plugin/contact-form-7.zip
 curl -o /tmp/contact-form-7-signature-addon.zip https://downloads.wordpress.org/plugin/contact-form-7-signature-addon.zip
+curl -o /tmp/dokan-lite.zip https://downloads.wordpress.org/plugin/dokan-lite.zip
 curl -o /tmp/eps-301-redirects.zip https://downloads.wordpress.org/plugin/eps-301-redirects.zip
 curl -o /tmp/google-site-kit.zip https://downloads.wordpress.org/plugin/google-site-kit.zip
 curl -o /tmp/intercom.zip https://downloads.wordpress.org/plugin/intercom.zip
 curl -o /tmp/jetpack.zip https://downloads.wordpress.org/plugin/jetpack.zip
 curl -o /tmp/leadin.zip https://downloads.wordpress.org/plugin/leadin.zip
-curl -o /tmp/loginpress.zip https://downloads.wordpress.org/plugin/loginpress.zip
+curl -o /tmp/loginpress.zip https://downloads.wordpress.org/plugins/https://downloads.wordpress.org/plugin/loginpress.zip
 curl -o /tmp/mailpoet.zip https://downloads.wordpress.org/plugin/mailpoet.zip
 curl -o /tmp/nomiddleman-crypto-payments-for-woocommerce.zip https://downloads.wordpress.org/plugin/nomiddleman-crypto-payments-for-woocommerce.zip
 curl -o /tmp/polylang.zip https://downloads.wordpress.org/plugin/polylang.zip
 curl -o /tmp/simple-tags.zip https://downloads.wordpress.org/plugin/simple-tags.zip
 curl -o /tmp/w3-total-cache.zip https://downloads.wordpress.org/plugin/w3-total-cache.zip
 curl -o /tmp/woocommerce.zip  https://downloads.wordpress.org/plugin/woocommerce.zip
-curl -o /tmp/woocommerce-services.zip https://downloads.wordpress.org/plugin/woocommerce-services.zip
+curl -o /tmp/woocommerce-admin.zip  https://downloads.wordpress.org/plugin/woocommerce-admin.zip
+curl -o /tmp/woocommerce-services.zip https://downloads.wordpress.org/plugin/woocommerce-services.1.25.3.zip
 curl -o /tmp/woocommerce-square.zip https://downloads.wordpress.org/plugin/woocommerce-square.zip
 curl -o /tmp/wp-force-ssl.zip https://downloads.wordpress.org/plugin/wp-force-ssl.zip
 curl -o /tmp/wp-mail-smtp.zip https://downloads.wordpress.org/plugin/wp-mail-smtp.zip
+curl -o /tmp/wordpress-seo.zip https://downloads.wordpress.org/plugin/wordpress-seo.zip
 
 ## Download The Management Firm Hosted Plugins
+curl -o /tmp/auxin-elememnts.zip https://tmf-wordpress-resources.s3.amazonaws.com/auxin-elements.2.7.2.zip
 curl -o /tmp/auxin-pro-tools.zip https://tmf-wordpress-resources.s3.amazonaws.com/auxin-pro-tools.zip
 curl -o /tmp/auxin-shop.zip https://tmf-wordpress-resources.s3.amazonaws.com/auxin-shop.zip
 curl -o /tmp/auxin-the-news.zip https://tmf-wordpress-resources.s3.amazonaws.com/auxin-the-news.zip
 curl -o /tmp/bdthemes-element-pack.zip https://tmf-wordpress-resources.s3.amazonaws.com/bdthemes-element-pack.zip
 curl -o /tmp/dokan-pro.zip https://tmf-wordpress-resources.s3.amazonaws.com/dokan-pro.3.0.8.zip
-curl -o /tmp/dzs-zoomsounds.zip https://tmf-wordpress-resources.s3.amazonaws.com/dnz-zoomsounds.zip
+curl -o /tmp/dzs-zoomsounds.zip https://tmf-wordpress-resources.s3.amazonaws.com/dzs-zoomsounds.zip
 curl -o /tmp/elementor.zip https://tmf-wordpress-resources.s3.amazonaws.com/elementor-3.0.7.zip
 curl -o /tmp/elementor-pro.zip https://tmf-wordpress-resources.s3.amazonaws.com/elementor-pro-3.0.4.zip
+curl -o /tmp/facebook-for-woocommerce.zip https://tmf-wordpress-resources.s3.amazonaws.com/facebook-for-woocommerce.2.2.0.zip
 curl -o /tmp/go_pricing.zip https://tmf-wordpress-resources.s3.amazonaws.com/go_pricing.zip
 curl -o /tmp/gp-better-user-activation.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-better-user-activation-1.2.zip
 curl -o /tmp/gp-date-time-calculator.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-date-time-calculator-1.0-beta-4.4.zip
@@ -53,9 +59,9 @@ curl -o /tmp/gp-easy-passthrough.zip https://tmf-wordpress-resources.s3.amazonaw
 curl -o /tmp/gp-ecommerce-fields.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-ecommerce-fields-1.0.41.zip
 curl -o /tmp/gp-limit-dates.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-limit-dates-1.0.23.zip
 curl -o /tmp/gp-live-preview.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-live-preview-1.5.zip
-curl -o /tmp/gp-media-library.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-media-library-1.2.16zip
+curl -o /tmp/gp-media-library.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-media-library-1.2.16.zip
 curl -o /tmp/gp-multi-page-navigation.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-multi-page-navigation-1.0.8.zip
-curl -o /tmp/gp-nested-forms.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-bested-forms-1.0-beta-8.76.zip
+curl -o /tmp/gp-nested-forms.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-nested-forms-1.0-beta-8.76.zip
 curl -o /tmp/gp-populate-anything.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-populate-anything-1.0-beta-4.115.zip
 curl -o /tmp/gp-post-content-merge-tags.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-post-content-merge-tags-1.2.zip
 curl -o /tmp/gp-preview-submission.zip https://tmf-wordpress-resources.s3.amazonaws.com/gp-preview-submission-1.3.3.zip
@@ -94,7 +100,7 @@ curl -o /tmp/gravityformspipe.zip https://tmf-wordpress-resources.s3.amazonaws.c
 curl -o /tmp/gravityformspolls.zip https://tmf-wordpress-resources.s3.amazonaws.com/gravityformspolls_3.7.zip
 curl -o /tmp/gravityformspostmark.zip https://tmf-wordpress-resources.s3.amazonaws.com/gravityformspostmark_1.2.zip
 curl -o /tmp/gravityformsppcp.zip https://tmf-wordpress-resources.s3.amazonaws.com/gravityformsppcp_1.4.2.zip
-curl -o /tmp/gravityformsquiz.zip https://tmf-wordpress-resources.s3.amazonaws.com/gravityformsquiz_3.6.1zip
+curl -o /tmp/gravityformsquiz.zip https://tmf-wordpress-resources.s3.amazonaws.com/gravityformsquiz_3.6.1.zip
 curl -o /tmp/gravityformssendgrid.zip https://tmf-wordpress-resources.s3.amazonaws.com/gravityformssendgrid_1.4.zip
 curl -o /tmp/gravityformssignature.zip https://tmf-wordpress-resources.s3.amazonaws.com/gravityformssignature_4.0.zip
 curl -o /tmp/gravityformsslack.zip https://tmf-wordpress-resources.s3.amazonaws.com/gravityformsslack_1.12.zip
@@ -112,7 +118,7 @@ curl -o /tmp/gwcommentblacklist.zip https://tmf-wordpress-resources.s3.amazonaws
 curl -o /tmp/gwconditionallogicdates.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwconditionallogicdates-1.0.15.zip
 curl -o /tmp/gwconditionalpricing.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwconditionalpricing-1.2.41.zip
 curl -o /tmp/gwcopycat.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwcopycat-1.4.31.zip
-curl -o /tmp/gwmailusers.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwmailusers-1.3.10-1.zip
+curl -o /tmp/gwemailusers.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwemailusers-1.3.10-1.zip
 curl -o /tmp/gwexpandtextareas.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwexpandtextareas_1.0.4.zip
 curl -o /tmp/gwlimitcheckboxes.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwlimitcheckboxes-1.2.15.zip
 curl -o /tmp/gwlimitchoices.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwlimitchoices-1.6.33.zip
@@ -123,22 +129,35 @@ curl -o /tmp/gwpricerange.zip https://tmf-wordpress-resources.s3.amazonaws.com/g
 curl -o /tmp/gwreadonly.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwreadonly-1.6.zip
 curl -o /tmp/gwreloadform.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwreloadform-2.0.2.zip
 curl -o /tmp/gwtermsofservice.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwtermsofservice-1.3.14.zip
-curl -o /tmp/gwwordcount.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwwordcourt-1.4.6.zip
-curl -o /tmp/yoast.zip https://tmf-wordpress-resources.s3.amazonaws.com/j207-ncx-wordpress-seo-premium.15.0.zip
+curl -o /tmp/gwwordcount.zip https://tmf-wordpress-resources.s3.amazonaws.com/gwwordcount-1.4.6.zip
+curl -o /tmp/highways-sync-for-intercom.zip https://tmf-wordpress-resources.s3.amazonaws.com/highways-sync-for-intercom.zip
 curl -o /tmp/js_composer.zip https://tmf-wordpress-resources.s3.amazonaws.com/js_composer.zip
 curl -o /tmp/LayerSlider.zip https://tmf-wordpress-resources.s3.amazonaws.com/LayerSlider.zip
 curl -o /tmp/masterslider.zip https://tmf-wordpress-resources.s3.amazonaws.com/masterslider.zip
 # curl -o /tmp/medizco-essential.zip https://tmf-wordpress-resources.s3.amazonaws.com/medizco-essential.zip
 curl -o /tmp/polylang-pro.zip https://tmf-wordpress-resources.s3.amazonaws.com/polylang-pro-2.8.2.zip
+curl -o /tmp/polylang-wc.zip https://tmf-wordpress-resources.s3.amazonaws.com/polylang-wc.1.5.zip
 curl -o /tmp/qube.zip https://tmf-wordpress-resources.s3.amazonaws.com/qube.1.1.1.zip
 curl -o /tmp/revslider.zip https://tmf-wordpress-resources.s3.amazonaws.com/revslider.zip
 curl -o /tmp/shift-cv.zip https://tmf-wordpress-resources.s3.amazonaws.com/shift-cv.3.0.1.zip
 curl -o /tmp/Ultimate_VC_Addons.zip https://tmf-wordpress-resources.s3.amazonaws.com/Ultimate_VC_Addons.zip
 curl -o /tmp/waspthemes-yellow-pencil.zip https://tmf-wordpress-resources.s3.amazonaws.com/waspthemes-yellow-pencil.zip
+curl -o /tmp/woocommerce-bookings.zip https://tmf-wordpress-resources.s3.amazonaws.com/woocommerce-bookings.1.15.29.zip
+curl -o /tmp/woocommerce-gateway-amazon-payments-advanced.zip https://tmf-wordpress-resources.s3.amazonaws.com/woocommerce-gateway-amazon-payments-advanced.1.12.2.zip
+curl -o /tmp/woocommerce-gift-cards.zip https://tmf-wordpress-resources.s3.amazonaws.com/woocommerce-gift-cards.zip
+curl -o /tmp/woocommerce-gravityforms-product-addons.zip https://tmf-wordpress-resources.s3.amazonaws.com/woocommerce-gravityforms-product-addons.zip
+curl -o /tmp/woocommerce-payments.zip https://tmf-wordpress-resources.s3.amazonaws.com/woocommerce-payments.1.7.0.zip
+curl -o /tmp/woocommerce-product-addons.zip https://tmf-wordpress-resources.s3.amazonaws.com/woocommerce-product-addons-3.1.0.zip
 curl -o /tmp/woocommerce-product-bundles.zip https://tmf-wordpress-resources.s3.amazonaws.com/woocommerce-product-bundles.6.4.0.zip
+curl -o /tmp/woocommerce-subscription-downloads.zip https://tmf-wordpress-resources.s3.amazonaws.com/woocommerce-subscription-downloads-1.1.29.zip
+curl -o /tmp/woocommerce-subscriptions.zip https://tmf-wordpress-resources.s3.amazonaws.com/woocommerce-subscriptions-3.0.9.zip
 curl -o /tmp/wp-mail-smtp-pro.zip https://tmf-wordpress-resources.s3.amazonaws.com/wp-mail-smtp-pro.2.4.0.zip
 curl -o /tmp/wp-rocket.zip https://tmf-wordpress-resources.s3.amazonaws.com/wp-rocket.3.7.2.zip
+curl -o /tmp/wordpress-seo-premium.zip https://tmf-wordpress-resources.s3.amazonaws.com/j207-ncx-wordpress-seo-premium.15.0.zip
 curl -o /tmp/wpseo-local.zip https://tmf-wordpress-resources.s3.amazonaws.com/wpseo-local.13.6.zip
+curl -o /tmp/wpseo-news.zip https://tmf-wordpress-resources.s3.amazonaws.com/wpseo-news-12.6.zip
+curl -o /tmp/wpseo-video.zip https://tmf-wordpress-resources.s3.amazonaws.com/wpseo-video-13.3.zip
+curl -o /tmp/wpseo-woocommerce.zip https://tmf-wordpress-resources.s3.amazonaws.com/wpseo-woocommerce.13.6.zip
 
 ## Download ThemeCo Plugins (Pro Theme Specific)
 # curl -o /tmp/tco-custom-404.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/tco-custom-404.zip
@@ -169,23 +188,22 @@ curl -o /tmp/wpseo-local.zip https://tmf-wordpress-resources.s3.amazonaws.com/wp
 # curl -o /tmp/wp-estimation-form.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/WP_Estimation_Form.zip
 # curl -o /tmp/advanced-custom-fields-pro.zip https://themeco-packages.s3.amazonaws.com/d940c8c440f230138995a40c4daf0904/x_package/extensions/advanced-custom-fields-pro.zip
 
-## Download Additional Third Party 
-# curl -o /tmp/woocommerce-gift-cards.zip https://woothemes-products.s3.amazonaws.com/plugin-packages/woocommerce-gift-cards/woocommerce-gift-cards.zip?AWSAccessKeyId=AKIAJE6A7GBT4ZRLENMA&Expires=1600752383&Signature=ocwBQqINBqf78U%2FjtcPJytK9yM8%3D
-
 # Install Files
 ## Install Theme Files
-# unzip /tmp/pro.zip -d /opt/bitnami/wordpress/wp-content/themes
-# unzip /tmp/pro-child.zip -d /opt/bitnami/wordpress/wp-content/themes
-# unzip /tmp/medizco.zip  -d /opt/bitnami/wordpress/wp-content/themes
-# unzip /tmp/medizco-child.zip  -d /opt/bitnami/wordpress/wp-content/themes
+unzip /tmp/pro.zip -d /opt/bitnami/wordpress/wp-content/themes
+unzip /tmp/pro-child.zip -d /opt/bitnami/wordpress/wp-content/themes
+#unzip /tmp/medizco.zip  -d /opt/bitnami/wordpress/wp-content/themes
+#unzip /tmp/medizco-child.zip  -d /opt/bitnami/wordpress/wp-content/themes
 unzip /tmp/phlox.zip -d /opt/bitnami/wordpress/wp-content/themes
 unzip /tmp/phlox-child.zip -d /opt/bitnami/wordpress/wp-content/themes
 
 ## Install Plugins Downloadded From Wordpress
 unzip /tmp/eps-301-redirects.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/auxin-elements.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/bbpress.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/contact-form-7.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/buddypress.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/dokan-lite.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/leadin.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/mailpoet.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/woocommerce.zip -d /opt/bitnami/wordpress/wp-content/plugins
@@ -197,7 +215,6 @@ unzip /tmp/envira-gallery.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/essential-grid.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/tco-facebook-comments.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/tco-google-analytics.zip -d /opt/bitnami/wordpress/wp-content/plugins
-# unzip /tmp/LayerSlider.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/modern-events-calendar.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/tco-olark-integration.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/revslider.zip -d /opt/bitnami/wordpress/wp-content/plugins
@@ -227,14 +244,15 @@ unzip /tmp/nomiddleman-crypto-payments-for-woocommerce.zip -d /opt/bitnami/wordp
 unzip /tmp/simple-tags.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/google-site-kit.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/w3-total-cache.zip -d /opt/bitnami/wordpress/wp-content/plugins
-# upzip /tmp//tmp/woocommerce-gift-cards.zip -d /opt/bitnami/wordpress/wp-content/plugins
-upzip /tmp/woocommerce-services.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-services.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/woocommerce-square.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/wp-force-ssl.zip -d /opt/bitnami/wordpress/wp-content/plugins
-#nzip /tmp/medizco-essential.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/intercom.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/polylang.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/wp-mail-smtp.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-admin.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/wordpress-seo.zip -d /opt/bitnami/wordpress/wp-content/plugins
 
 ## Install Plugins Downloaded from The Management Firm
 unzip /tmp/auxin-pro-tools.zip -d /opt/bitnami/wordpress/wp-content/plugins
@@ -245,6 +263,7 @@ unzip /tmp/dokan-pro.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/dzs-zoomsounds.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/elementor.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/elementor-pro.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/facebook-for-woocommerce.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/go_pricing.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gp-better-user-activation.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gp-date-time-calculator.zip -d /opt/bitnami/wordpress/wp-content/plugins
@@ -283,7 +302,7 @@ unzip /tmp/gravityformshelpscout.zip -d /opt/bitnami/wordpress/wp-content/plugin
 unzip /tmp/gravityformshubspot.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformsicontact.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformsmadmimi.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/gravityformsmailchip.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/gravityformsmailchimp.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformsmailgun.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformsmollie.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformspartialentries.zip -d /opt/bitnami/wordpress/wp-content/plugins
@@ -300,7 +319,7 @@ unzip /tmp/gravityformsslack.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformsstripe.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformssurvey.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformstrello.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/gravityformstwillio.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/gravityformstwilio.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformsuserregistration.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformswebhooks.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityformszapier.zip -d /opt/bitnami/wordpress/wp-content/plugins
@@ -308,10 +327,10 @@ unzip /tmp/gravityformszohocrm.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gravityperks.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gwautologin.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gwcommentblacklist.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/gwconditionalblacklist.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/gwcommentblacklist.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gwconditionalpricing.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gwcopycat.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/gwmailusers.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/gwemailusers.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gwexpandtextareas.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gwlimitcheckboxes.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gwlimitchoices.zip -d /opt/bitnami/wordpress/wp-content/plugins
@@ -323,17 +342,32 @@ unzip /tmp/gwreadonly.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gwreloadform.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gwtermsofservice.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/gwwordcount.zip -d /opt/bitnami/wordpress/wp-content/plugins
-unzip /tmp/yoast.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/highways-sync-for-intercom.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/js_composer.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/LayerSlider.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/masterslider.zip -d /opt/bitnami/wordpress/wp-content/plugins
+#unzip /tmp/medizco-essential.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/polylang-pro.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/polylang-wc.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/qube.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/revslider.zip /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/shift-cv.zip /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/Ultimate_VC_Addons.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/waspthemes-yellow-pencil.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-bookings.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-gateway-amazon-payments-advanced.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-gift-cards.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-gravityforms-product-addons.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-payments.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-product-addons.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/woocommerce-product-bundles.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-subscription-downloads.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-subscriptions.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/woocommerce-.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/wp-mail-smtp-pro.zip -d /opt/bitnami/wordpress/wp-content/plugin
 unzip /tmp/wp-rocket.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/wordpress-seo-premium.zip -d /opt/bitnami/wordpress/wp-content/plugins
 unzip /tmp/wpseo-local.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/wpseo-news.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/wpseo-video.zip -d /opt/bitnami/wordpress/wp-content/plugins
+unzip /tmp/wpseo-woocommerce.zip -d /opt/bitnami/wordpress/wp-content/plugins

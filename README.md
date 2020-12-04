@@ -1,10 +1,19 @@
-# Managed Wordppress
+# tmf-wordpress
 
-This is just a generic readme provided by [The Management Bot](https://github.com/tmf-bot)
+Docker container for an out of the box fully managed Wordpress instance. Includes over 100+ of the world's most popular plugins installed, activated, and ready to maximized efficency with high impact in any market immediately.
 
-## Using Markdown
+## Using this docker image
 
-We use Markdown for all of our READMEs. To learn more about Markdown please checkout [Master Mardown](https://guides.github.com/features/mastering-markdown/) which is a great little tutorial provided by GitHub.
+To deploy an instance locally, open terminal and run the following:
+
+  ```
+  git clone https://github.com/themanagementfirm/wp
+  cd wp
+  docker build -t <your-company-name>/<your-wordpress-site-name>:latest .
+  docker compose up
+  ```
+
+Ensure you replace `<your-company-name>` with the name of your company and `<your-wordpress-site-name>` with the name of the website being deployed. Do note, `<your-company-name>` should be the company's profile name at [hub.docker.com](https://hub.docker.com)
 
 ## How to contribute
 
