@@ -13,7 +13,7 @@ To deploy an instance locally, open terminal and run the following:
   docker compose up
   ```
 
-Ensure you replace `<your-company-name>` with the name of your company and `<your-wordpress-site-name>` with the name of the website being deployed. Do note, `<your-company-name>` should be the company's profile name at [hub.docker.com](https://hub.docker.com)
+Ensure you replace `<your-company-name>` with the name of your company and `<your-wordpress-site-name>` with the name of the website being deployed. Do note, `<your-company-name>` should be the company's profile name at [hub.docker.com](https://hub.docker.com).
 
 ## How to contribute
 
